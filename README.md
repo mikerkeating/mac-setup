@@ -14,3 +14,7 @@ Setup
 * Access Github and setup your Github SSH key
 * Install XCode from the Mac Store - note it's a 2GB+ download so will take a while
 * Install XCode Command Line Tools from the Mac Store
+* 
+
+
+symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
