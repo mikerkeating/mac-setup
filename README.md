@@ -16,8 +16,11 @@ Setup
 * Install XCode Command Line Tools from the Mac Store
 * 
 
+Notes
+- symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
+- http://www.scrubly.com/blog/how-to-mac/move-system-folders-another-drive-mac/
 
-symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
+Steps
 
 - `cd /Volumes/Files/`
 - `mkdir users`
@@ -29,6 +32,6 @@ symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 - `mkdir Desktop`
 - `mkdir Downloads`
 - `mkdir Documents`
-- `sudo rm ~/Desktop ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
-- `sudo rm ~/Downloads ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
-- `sudo rm ~/Documents ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
+- `sudo rm ~/Desktop/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
+- `sudo rm ~/Downloads/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
+- `sudo rm -rf ~/Documents/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
