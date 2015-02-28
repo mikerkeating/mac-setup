@@ -19,7 +19,8 @@ Setup
 
 symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 
-
+- `cd /Volumes/Files/`
+- `sudo chown -R $(whoami)`
 - `sudo rm -rf ~/Downloads/`
 - `ln -s /Volumes/Files/Dropbox/Downloads/ ~/Downloads`
 - `sudo rm -rf ~/Documents/`
