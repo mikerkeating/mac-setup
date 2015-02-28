@@ -31,5 +31,7 @@ symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 - `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
 - `sudo rm -rf ~/Documents/`
 - `ln -s /Volumes/Files/Dropbox/Documents/ ~/Documents`
+- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Documents/ ~/Documents`
 - `sudo rm -rf ~/Desktop/`
 - `ln -s /Volumes/Files/Dropbox/Desktop/ ~/Desktop`
+- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
