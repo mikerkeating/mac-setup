@@ -32,6 +32,8 @@ Steps
 - `mkdir Desktop`
 - `mkdir Downloads`
 - `mkdir Documents`
+- `mkdir Pictures`
 - `sudo rm -rf ~/Desktop/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
 - `sudo rm -rf ~/Downloads/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
 - `sudo rm -rf ~/Documents/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
+- `sudo rm -rf ~/Pictures/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Pictures/ ~/Pictures`
