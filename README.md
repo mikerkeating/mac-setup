@@ -18,3 +18,11 @@ Setup
 
 
 symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
+
+
+- `sudo rm -rf ~/Downloads/`
+- `ln -s /Volumes/Files/Dropbox/Downloads/ ~/Downloads`
+- `sudo rm -rf ~/Documents/`
+- `ln -s /Volumes/Files/Dropbox/Documents/ ~/Documents`
+- `sudo rm -rf ~/Desktop/`
+- `ln -s /Volumes/Files/Dropbox/Desktop/ ~/Desktop`
