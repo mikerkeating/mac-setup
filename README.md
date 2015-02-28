@@ -23,8 +23,12 @@ symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 - `mkdir Downloads`
 - `mkdir Documents`
 - `mkdir Desktop`
+- `mkdir Users`
+- `cd users`
+- `mkdir mikerkeating`
 - `sudo rm -rf ~/Downloads/`
 - `ln -s /Volumes/Files/Dropbox/Downloads/ ~/Downloads`
+- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
 - `sudo rm -rf ~/Documents/`
 - `ln -s /Volumes/Files/Dropbox/Documents/ ~/Documents`
 - `sudo rm -rf ~/Desktop/`
