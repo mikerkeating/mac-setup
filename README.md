@@ -20,18 +20,15 @@ Setup
 symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 
 - `cd /Volumes/Files/`
-- `mkdir Downloads`
-- `mkdir Documents`
-- `mkdir Desktop`
-- `mkdir Users`
+- `mkdir users`
 - `cd users`
 - `mkdir mikerkeating`
-- `sudo rm -rf ~/Downloads/`
-- `ln -s /Volumes/Files/Dropbox/Downloads/ ~/Downloads`
-- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
-- `sudo rm -rf ~/Documents/`
-- `ln -s /Volumes/Files/Dropbox/Documents/ ~/Documents`
-- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Documents/ ~/Documents`
-- `sudo rm -rf ~/Desktop/`
-- `ln -s /Volumes/Files/Dropbox/Desktop/ ~/Desktop`
-- `ln -f -s /Volumes/Files/Users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
+- `cd mikerkeating`
+- `mkdir Dropbox`
+- `cd Dropbox`
+- `mkdir Desktop`
+- `mkdir Downloads`
+- `mkdir Documents`
+- `sudo rm ~/Desktop ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
+- `sudo rm ~/Downloads ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
+- `sudo rm ~/Documents ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
