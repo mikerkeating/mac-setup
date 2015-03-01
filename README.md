@@ -20,7 +20,7 @@ Notes
 - symlink http://gigaom.com/2011/04/27/how-to-create-and-use-symlinks-on-a-mac/
 - http://www.scrubly.com/blog/how-to-mac/move-system-folders-another-drive-mac/
 
-Steps
+Folders and Files
 
 - `cd /Volumes/Files/`
 - `mkdir users`
@@ -44,14 +44,18 @@ Steps
   - `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
 
 Terminal Setup
-- Already downloaded iTerm2; may need to update 
-- install XCode Command Line tools via `xcode-select --install`
-- check via `xcode-select -p`
-- check via `gcc --version`
-- Install oh my zsh via `curl -L http://install.ohmyz.sh | sh`
-- Symlink into dropbox via `sudo rm ~/.zshrc ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/shared-config/.zshrc ~/.zshrc`
-- `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- `export HOMEBREW_CASK_OPTS="--appdir=/Applications"`
-- brewfile
-- https://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
-- Now, once I've installed Homebrew, I can just navigate to the directory with my Brewfile and run brew bundle
+- Terminal
+  - Already downloaded iTerm2; may need to update 
+  - install XCode Command Line tools via `xcode-select --install`
+  - check via `xcode-select -p`
+  - check via `gcc --version`
+- ZSH
+  - Install oh my zsh via `curl -L http://install.ohmyz.sh | sh`
+  - Symlink into dropbox via `sudo rm ~/.zshrc ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/shared-config/.zshrc ~/.zshrc`
+- Add to `.zshrc` `export HOMEBREW_CASK_OPTS="--appdir=/Applications"`
+
+App Setup
+- Install Homebrew via `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Setup brewfile
+- via https://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
+- "Now, once I've installed Homebrew, I can just navigate to the directory with my Brewfile and run `brew bundle`"
