@@ -32,10 +32,13 @@ Steps
 - `mkdir Desktop`
 - `mkdir Downloads`
 - `mkdir Documents`
-- `mkdir Pictures`
-- `sudo rm -rf ~/Desktop/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
-- `sudo rm -rf ~/Downloads/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
-- `sudo rm -rf ~/Documents/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
-- `sudo rm -rf ~/Pictures/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Pictures/ ~/Pictures`
-- `sudo rm -rf ~/Movies/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Movies/ ~/Movies `
-- `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
+- System Folders
+  - `sudo rm -rf ~/Desktop/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Desktop/ ~/Desktop`
+  - `sudo rm -rf ~/Downloads/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
+  - `sudo rm -rf ~/Documents/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
+  - `sudo rm -rf ~/Public/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Public/ ~/Public`
+- Non System Folders
+  - `mkdir Pictures`
+  - `sudo rm -rf ~/Pictures/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Pictures/ ~/Pictures`
+  - `sudo rm -rf ~/Movies/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Movies/ ~/Movies `
+  - `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
