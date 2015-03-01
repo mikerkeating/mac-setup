@@ -43,11 +43,13 @@ Steps
   - `sudo rm -rf ~/Movies/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Movies/ ~/Movies `
   - `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
 
-Apps
-- install via `xcode-select --install`
+Terminal Setup
+- Already downloaded iTerm2; may need to update 
+- install XCode Command Line tools via `xcode-select --install`
 - check via `xcode-select -p`
 - check via `gcc --version`
-- `curl -L http://install.ohmyz.sh | sh`
+- Install oh my zsh via `curl -L http://install.ohmyz.sh | sh`
+- Symlink into dropbox via `sudo rm ~/.zshrc ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/shared-config/.zshrc ~/.zshrc`
 - `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `export HOMEBREW_CASK_OPTS="--appdir=/Applications"`
 - brewfile
