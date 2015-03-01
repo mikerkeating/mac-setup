@@ -48,3 +48,8 @@ Apps
 - check via `xcode-select -p`
 - check via `gcc --version`
 - `curl -L http://install.ohmyz.sh | sh`
+- `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- `export HOMEBREW_CASK_OPTS="--appdir=/Applications"`
+- brewfile
+- https://mattstauffer.co/blog/setting-up-a-new-os-x-development-machine-part-2-global-package-managers
+- Now, once I've installed Homebrew, I can just navigate to the directory with my Brewfile and run brew bundle
