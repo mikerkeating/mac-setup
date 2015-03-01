@@ -37,3 +37,5 @@ Steps
 - `sudo rm -rf ~/Downloads/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Downloads/ ~/Downloads`
 - `sudo rm -rf ~/Documents/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Documents/ ~/Documents`
 - `sudo rm -rf ~/Pictures/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Pictures/ ~/Pictures`
+- `sudo rm -rf ~/Movies/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Movies/ ~/Movies `
+- `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
