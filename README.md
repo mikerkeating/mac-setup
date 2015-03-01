@@ -42,3 +42,9 @@ Steps
   - `sudo rm -rf ~/Pictures/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Pictures/ ~/Pictures`
   - `sudo rm -rf ~/Movies/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Movies/ ~/Movies `
   - `sudo rm -rf ~/Music/ ; ln -s /Volumes/Files/users/mikerkeating/Dropbox/Music/ ~/Music`
+
+Apps
+- install via `xcode-select --install`
+- check via `xcode-select -p`
+- check via `gcc --version`
+- `curl -L http://install.ohmyz.sh | sh`
