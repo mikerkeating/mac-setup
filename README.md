@@ -10,6 +10,7 @@ Install
 - [ ] Sign-in to Apple
 
 Setup
+- [ ] Activate firewall
 - [ ] Apply Full Disk Encryption - note it will take 1 hour + on a new MacBook Air
 - [ ] Access Github and setup your Github SSH key
 - [ ] Install XCode from the Mac Store - note it's a 2GB+ download so will take a while
